@@ -8,7 +8,7 @@ const app = exprss();
 
 app.use(exprss.json());
 app.use(cors({
-    origin: ["https://users-5lsn.onrender.com/"]
+    origin: ["https://users-5lsn.onrender.com"]
 }));
 app.use(user);
 
